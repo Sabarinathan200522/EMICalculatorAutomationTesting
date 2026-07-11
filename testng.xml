@@ -49,6 +49,51 @@
   	</classes>
   </test>
   
+  
+  <test thread-count="5" name="Test6">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+  	<classes>
+  		<class name="test.TC006_TestCarLoanInterestTxtboxForNumInput"></class>
+  	</classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Test7">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+  	<classes>
+  		<class name="test.TC007_TestCarLoanTenureTxtboxForStrInput"></class>
+  	</classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Test8">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+  	<classes>
+  		<class name="test.TC008_TestCarLoanTenureTxtboxForNumInput"></class>
+  	</classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Test9">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+  	<classes>
+  		<class name="test.TC009_TestCarLoanTenureMonthToYear"/>
+  	</classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Test10">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+  	<classes>
+  		<class name="test.TC010_TestCarLoanTenureYearToMonth"/>
+  	</classes>
+  </test>
+  
   <test thread-count="5" name="Test17">
   <parameter name="browser" value="chrome"></parameter>
   <parameter name="runType" value="local"></parameter>
