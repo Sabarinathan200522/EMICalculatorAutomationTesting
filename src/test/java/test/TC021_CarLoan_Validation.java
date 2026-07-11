@@ -11,6 +11,8 @@ public class TC021_CarLoan_Validation extends BaseTest{
 	
 	@Test(dataProvider="CarLoanData",dataProviderClass=DataProviders.class,groups= {"e2e"})
 	public void CarLoan_Validation(String h1,String h2,String h3,String h4,String h5,String h6) {
+		
+		log.info("TC021 Started");
 		Home action=new Home(driver);
 		action.navToCarLoan();
 		action.setCarLoanAmount(h1);
@@ -22,5 +24,6 @@ public class TC021_CarLoan_Validation extends BaseTest{
 		Assert.assertEquals(action.getLoanEmi(), h4);
 		Assert.assertEquals(action.getTotalInterest(), h5);
 		Assert.assertEquals(action.getTotalPayment(), h6);
+		log.info("TC021 Passed : Car loan is validated against the given input");
 	}
 }

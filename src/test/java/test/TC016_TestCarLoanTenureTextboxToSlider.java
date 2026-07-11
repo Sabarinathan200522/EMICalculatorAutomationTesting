@@ -37,7 +37,6 @@ public class TC016_TestCarLoanTenureTextboxToSlider extends BaseTest {
 				Assert.fail("Textbox value does not reflect on corresponding slider");
 			}
 			log.info("TC016 Passed : Textbox value successfully reflect on corresponding slider but textbox value exceed slider max value so slider points on its max point");
-			System.out.println("TC016 Passed : Textbox value successfully reflect on corresponding slider but textbox value exceed slider max value so slider points on its max point");
 		}
 		
 		

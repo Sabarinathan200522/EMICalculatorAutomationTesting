@@ -29,12 +29,12 @@ public class Report implements ITestListener {
             
             extent = new ExtentReports();
             extent.attachReporter(sparkReporter);
-            
             extent.setSystemInfo("Computer Name", "localhost");
             extent.setSystemInfo("Environment", "QA");
             extent.setSystemInfo("Tester Name", "MSD");
             extent.setSystemInfo("OS", "Windows10");
-            extent.setSystemInfo("Browser name", "Chrome");
+            extent.setSystemInfo("Browser name","Chrome");
+            extent.setSystemInfo("Run Type","local");
         }
     }
 

@@ -10,6 +10,8 @@ public class TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan extends BaseTest
 	
 	@Test(groups= {"smoke"})
 	public void validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan() {
+		
+		log.info("TC018 Started");
 		HomeLoanActions action=new HomeLoanActions(driver);
 		Home homeaction=new Home(driver);
 		homeaction.click_Loan_Widgets();
@@ -26,5 +28,7 @@ public class TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan extends BaseTest
 		Assert.assertTrue(action.homeInsuranceFieldIsPresented());
 		Assert.assertTrue(action.propertyTaxFieldIsPresented());
 		Assert.assertTrue(action.maintenceExpensesFieldIsPresented());
+		
+		log.info("TC018 Passed : All the input fields present in the home loan page");
 	}
 }

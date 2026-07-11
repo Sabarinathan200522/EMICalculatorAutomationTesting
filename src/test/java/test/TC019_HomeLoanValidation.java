@@ -9,9 +9,10 @@ import utilities.DataProviders;
 
 public class TC019_HomeLoanValidation extends BaseTest {
 	
-	
 	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class,groups= {"e2e"})
-	void validate_HomeLoan(String h1,String h2,String h3,String h4,String h5,String h6,String h7,String h8,String h9,String h10,String h11,String h12,String h13,String h14,String h15) throws Exception {
+	public void validate_HomeLoan(String h1,String h2,String h3,String h4,String h5,String h6,String h7,String h8,String h9,String h10,String h11,String h12,String h13,String h14,String h15) throws Exception {
+		
+		log.info("TC019 Started");
 		HomeLoanActions action=new HomeLoanActions(driver);
 		Home homeaction=new Home(driver);
 		homeaction.click_Loan_Widgets();
@@ -48,5 +49,7 @@ public class TC019_HomeLoanValidation extends BaseTest {
 		else {
 			Assert.assertTrue(false);
 		}
+		
+		log.info("TC019 Passed : Home loan is validated against the given input");
 	}
 }
