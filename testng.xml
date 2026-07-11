@@ -93,54 +93,62 @@
   		<class name="test.TC010_TestCarLoanTenureYearToMonth"/>
   	</classes>
   </test>
+  
+  
   <test thread-count="5" name="Test11">
-<parameter name="browser" value="chrome"/>
-<parameter name="runType" value="local"/>
-<classes>
-<class name="test.TC011_TestCarLoanAmtSliderToTextbox"/>
-</classes>
-</test>
-<!--  Test  -->
-<test thread-count="5" name="Test12">
-<parameter name="browser" value="chrome"/>
-<parameter name="runType" value="local"/>
-<classes>
-<class name="test.TC012_TestCarLoanAmtTextboxToSlider"/>
-</classes>
-</test>
-<!--  Test  -->
-<test thread-count="5" name="Test13">
-<parameter name="browser" value="chrome"/>
-<parameter name="runType" value="local"/>
-<classes>
-<class name="test.TC013_TestCarLoanInterestSliderToTextbox"/>
-</classes>
-</test>
-<!--  Test  -->
-<test thread-count="5" name="Test14">
-<parameter name="browser" value="chrome"/>
-<parameter name="runType" value="local"/>
-<classes>
-<class name="test.TC014_TestCarLoanInterestTextboxToSlider"/>
-</classes>
-</test>
-<!--  Test  -->
-<test thread-count="5" name="Test15">
-<parameter name="browser" value="chrome"/>
-<parameter name="runType" value="local"/>
-<classes>
-<class name="test.TC015_TestCarLoanTenureSliderToTextbox"/>
-</classes>
-</test>
-<!--  Test  -->
-<test thread-count="5" name="Test16">
-<parameter name="browser" value="chrome"/>
-<parameter name="runType" value="local"/>
-<classes>
-<class name="test.TC016_TestCarLoanTenureTextboxToSlider"/>
-</classes>
-</test>
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+    <classes>
+	      <class name="test.TC011_TestCarLoanAmtSliderToTextbox"/>
 	
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test thread-count="5" name="Test12">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+    <classes>
+	      <class name="test.TC012_TestCarLoanAmtTextboxToSlider"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test13">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+    <classes>
+	      <class name="test.TC013_TestCarLoanInterestSliderToTextbox"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test14">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+    <classes>
+	      <class name="test.TC014_TestCarLoanInterestTextboxToSlider"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test15">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+    <classes>
+	      <class name="test.TC015_TestCarLoanTenureSliderToTextbox"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test16">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="runType" value="local"></parameter>
+    <classes>
+	      <class name="test.TC016_TestCarLoanTenureTextboxToSlider"/>
+    </classes>
+  </test> <!-- Test -->
+  
   <test thread-count="5" name="Test17">
   <parameter name="browser" value="chrome"></parameter>
   <parameter name="runType" value="local"></parameter>
