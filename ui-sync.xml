@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+    <listeners>
+        <listener class-name="utilities.Report"/>
+    </listeners>
+    
+    <test thread-count="5" name="Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="runType" value="local"></parameter>
+        
+        <groups>
+            <run>
+                <include name="ui-sync"/>
+                </run>
+        </groups>
+
+        <classes>
+            <class name="test.TC001_CorrectWebPageValidation"/>
+			<class name="test.TC002_CheckCarLoanInNav"/>
+			<class name="test.TC003_TestCarLoanAmtTxtboxForStrInput"/>
+			<class name="test.TC004_TestCarLoanAmtTxtboxForNumInput"/>
+			<class name="test.TC005_TestCarLoanInterestTxtboxForStrInput"/>
+			<class name="test.TC006_TestCarLoanInterestTxtboxForNumInput"/>
+			<class name="test.TC007_TestCarLoanTenureTxtboxForStrInput"/>
+			<class name="test.TC008_TestCarLoanTenureTxtboxForNumInput"/>
+			<class name="test.TC009_TestCarLoanTenureMonthToYear"/>
+			<class name="test.TC010_TestCarLoanTenureYearToMonth"/>
+			<class name="test.TC011_TestCarLoanAmtSliderToTextbox"/>
+			<class name="test.TC012_TestCarLoanAmtTextboxToSlider"/>
+			<class name="test.TC013_TestCarLoanInterestSliderToTextbox"/>
+			<class name="test.TC014_TestCarLoanInterestTextboxToSlider"/>
+			<class name="test.TC015_TestCarLoanTenureSliderToTextbox"/>
+			<class name="test.TC016_TestCarLoanTenureTextboxToSlider"/>
+			<class name="test.TC017_Check_HomeLoanOptionPresentIn_Navbar"/>
+			<class name="test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan"/>
+			<class name="test.TC019_HomeLoanValidation"/>
+			<class name="test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan"/>
+			<class name="test.TC021_CarLoan_Validation"/>
+        </classes>
+    </test> </suite> 

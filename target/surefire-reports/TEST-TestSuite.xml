@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="139.696" tests="42" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator\target\test-classes;C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator\target\classes;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\2497736\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\2497736\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\2497736\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2497736\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\2497736\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\2497736\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\2497736\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\2497736\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\2497736\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\2497736\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2497736\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2497736\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2497736\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2497736\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2497736\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2497736\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2497736\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2497736\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2497736\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2497736\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2497736\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2497736\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.0\log4j-api-2.26.0.jar;C:\Users\2497736\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.0\log4j-core-2.26.0.jar;C:\Users\2497736\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.26.0\log4j-slf4j2-impl-2.26.0.jar;C:\Users\2497736\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\2497736\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2497736\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2497736\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2497736\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2497736\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\2497736\AppData\Local\Temp\surefire5824027135321197237\surefirebooter-20260710204415051_3.jar C:\Users\2497736\AppData\Local\Temp\surefire5824027135321197237 2026-07-10T20-44-14_918-jvmRun1 surefire-20260710204415051_1tmp surefire_0-20260710204415051_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator\target\test-classes;C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator\target\classes;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\2497736\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\2497736\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\2497736\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2497736\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\2497736\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\2497736\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\2497736\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\2497736\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\2497736\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\2497736\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\2497736\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\2497736\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2497736\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2497736\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2497736\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2497736\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2497736\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2497736\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2497736\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2497736\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2497736\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2497736\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2497736\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2497736\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.0\log4j-api-2.26.0.jar;C:\Users\2497736\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.0\log4j-core-2.26.0.jar;C:\Users\2497736\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.26.0\log4j-slf4j2-impl-2.26.0.jar;C:\Users\2497736\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\2497736\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2497736\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2497736\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2497736\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2497736\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2497736"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2497736\AppData\Local\Temp\surefire5824027135321197237\surefirebooter-20260710204415051_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="2497736"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\2497736\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2497736\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\ProgramFiles\MySQL\MySQL Shell 8.0\bin;C:\Users\2497736\AppData\Local\Microsoft\WindowsApps;C:\Users\2497736\apache-maven-3.9.11 (1)\apache-maven-3.9.11\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCarLoanAmtText[dhuru](1)" classname="test.TC003_TestCarLoanAmtTxtboxForStrInput" time="4.296">
+    <system-out><![CDATA[2026-07-10 20:44:16 INFO  TC001_CorrectWebPageValidation:34 - Initializing Driver
+2026-07-10 20:44:16 INFO  TC002_CheckCarLoanInNav:34 - Initializing Driver
+2026-07-10 20:44:16 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:34 - Initializing Driver
+Initializing Driver
+Initializing Driver
+Initializing Driver
+2026-07-10 20:44:16 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:16 INFO  TC002_CheckCarLoanInNav:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:16 INFO  TC001_CorrectWebPageValidation:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:16 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:34 - Initializing Driver
+2026-07-10 20:44:16 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:34 - Initializing Driver
+Initializing Driver
+Initializing Driver
+2026-07-10 20:44:16 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:16 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:28 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:28 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:28 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:14 - TC004 Started
+2026-07-10 20:44:28 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:14 - TC003 Started
+2026-07-10 20:44:28 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:28 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:14 - TC005 Started
+2026-07-10 20:44:32 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:32 - TC003 Passed : Car Loan Amount textbox did not accept string input and set default value 0
+]]></system-out>
+    <system-err><![CDATA[2026-07-10T15:14:16.139609900Z main INFO Starting configuration XmlConfiguration[location=C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator\target\test-classes\log4j2.xml, lastModified=2026-07-10T08:19:33.355Z]...
+2026-07-10T15:14:16.139609900Z main INFO Configuration XmlConfiguration[location=C:\Users\2497736\Downloads\EMICalculator 1\EMICalculator\target\test-classes\log4j2.xml, lastModified=2026-07-10T08:19:33.355Z] started.
+2026-07-10T15:14:16.139609900Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@6a400542...
+2026-07-10T15:14:16.139609900Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@6a400542 stopped.
+Jul 10, 2026 8:44:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="testCarLoanAmtText[Vikram](2)" classname="test.TC003_TestCarLoanAmtTxtboxForStrInput" time="0.24">
+    <system-out><![CDATA[2026-07-10 20:44:33 INFO  TC002_CheckCarLoanInNav:126 - Driver closed
+Driver closed
+2026-07-10 20:44:34 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:32 - TC003 Passed : Car Loan Amount textbox did not accept string input and set default value 0
+2026-07-10 20:44:34 INFO  TC001_CorrectWebPageValidation:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:34 INFO  TC001_CorrectWebPageValidation:14 - TC001 Started
+2026-07-10 20:44:34 INFO  TC001_CorrectWebPageValidation:26 - TC001 Passed : Navigated to home page
+Navigated to home page successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtText[1,00,000](1)" classname="test.TC004_TestCarLoanAmtTxtboxForNumInput" time="0.092">
+    <system-out><![CDATA[2026-07-10 20:44:33 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:14 - TC003 Started
+2026-07-10 20:44:33 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:27 - TC004 Passed : Car Loan Amount textbox accept number input
+2026-07-10 20:44:33 INFO  TC002_CheckCarLoanInNav:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:33 INFO  TC002_CheckCarLoanInNav:16 - TC002 Started
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtText[2,00,000](2)" classname="test.TC004_TestCarLoanAmtTxtboxForNumInput" time="1.027">
+    <system-out><![CDATA[2026-07-10 20:44:34 INFO  TC001_CorrectWebPageValidation:126 - Driver closed
+Driver closed
+2026-07-10 20:44:35 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:27 - TC004 Passed : Car Loan Amount textbox accept number input
+]]></system-out>
+  </testcase>
+  <testcase name="carLoanPresentOrNot" classname="test.TC002_CheckCarLoanInNav" time="0.328">
+    <system-out><![CDATA[2026-07-10 20:44:33 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:14 - TC004 Started
+2026-07-10 20:44:33 INFO  TC002_CheckCarLoanInNav:25 - TC002 Passed : Car Loan present in the Navigation bar
+]]></system-out>
+  </testcase>
+  <testcase name="webPage" classname="test.TC001_CorrectWebPageValidation" time="0.344">
+    <system-out><![CDATA[2026-07-10 20:44:34 INFO  TC003_TestCarLoanAmtTxtboxForStrInput:126 - Driver closed
+Driver closed
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestText[dhuru](1)" classname="test.TC005_TestCarLoanInterestTxtboxForStrInput" time="1.394">
+    <system-out><![CDATA[2026-07-10 20:44:35 INFO  TC004_TestCarLoanAmtTxtboxForNumInput:126 - Driver closed
+Driver closed
+2026-07-10 20:44:35 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:32 - TC005 Passed : Car Loan Interest textbox did not accept string input and set default value 9
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestText[Vikram](2)" classname="test.TC005_TestCarLoanInterestTxtboxForStrInput" time="0.64">
+    <system-out><![CDATA[2026-07-10 20:44:35 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:14 - TC005 Started
+2026-07-10 20:44:36 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:32 - TC005 Passed : Car Loan Interest textbox did not accept string input and set default value 9
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureTextbox[5](1)" classname="test.TC008_TestCarLoanTenureTxtboxForNumInput" time="4.115">
+    <system-out><![CDATA[2026-07-10 20:44:36 INFO  TC005_TestCarLoanInterestTxtboxForStrInput:126 - Driver closed
+Driver closed
+2026-07-10 20:44:40 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:34 - Initializing Driver
+2026-07-10 20:44:40 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:44:40 INFO  TC009_TestCarLoanTenureMonthToYear:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:44:40 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:34 - Initializing Driver
+Initializing Driver
+Initializing Driver
+2026-07-10 20:44:40 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:40 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:40 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:40 INFO  TC009_TestCarLoanTenureMonthToYear:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:40 INFO  TC010_TestCarLoanTenureYearToMonth:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:44:40 INFO  TC010_TestCarLoanTenureYearToMonth:49 - Driver initialized in local with chrome browser
+2026-07-10 20:44:56 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:56 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:14 - TC008 Started
+2026-07-10 20:44:56 INFO  TC009_TestCarLoanTenureMonthToYear:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:56 INFO  TC009_TestCarLoanTenureMonthToYear:14 - TC009 Started
+2026-07-10 20:44:57 INFO  TC010_TestCarLoanTenureYearToMonth:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:57 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:57 INFO  TC010_TestCarLoanTenureYearToMonth:14 - TC010 Started
+2026-07-10 20:44:57 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:14 - TC007 Started
+2026-07-10 20:44:57 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:44:57 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:14 - TC006 Started
+2026-07-10 20:45:01 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:32 - TC008 Passed : Car Loan Tenure textbox accept number input
+2026-07-10 20:45:01 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:32 - TC006 Passed : Car Loan Interest textbox accept number input
+]]></system-out>
+    <system-err><![CDATA[Jul 10, 2026 8:44:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:44:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="testCarLoanTenureTextbox[7](2)" classname="test.TC008_TestCarLoanTenureTxtboxForNumInput" time="1.02">
+    <system-out><![CDATA[2026-07-10 20:45:03 INFO  TC009_TestCarLoanTenureMonthToYear:14 - TC009 Started
+2026-07-10 20:45:04 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:32 - TC008 Passed : Car Loan Tenure textbox accept number input
+2026-07-10 20:45:04 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:32 - TC006 Passed : Car Loan Interest textbox accept number input
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestTextbox[9](1)" classname="test.TC006_TestCarLoanInterestTxtboxForNumInput" time="0.114">
+    <system-out><![CDATA[2026-07-10 20:45:02 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:14 - TC008 Started
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestTextbox[8](2)" classname="test.TC006_TestCarLoanInterestTxtboxForNumInput" time="1.146">
+    <system-out><![CDATA[2026-07-10 20:45:04 INFO  TC008_TestCarLoanTenureTxtboxForNumInput:126 - Driver closed
+Driver closed
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureTextbox[dhuru](1)" classname="test.TC007_TestCarLoanTenureTxtboxForStrInput" time="0.362">
+    <system-out><![CDATA[2026-07-10 20:45:02 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:14 - TC006 Started
+2026-07-10 20:45:02 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:32 - TC007 Passed : Car Loan Tenure textbox did not accept string input and set default value 1
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureTextbox[Vikram](2)" classname="test.TC007_TestCarLoanTenureTxtboxForStrInput" time="2.162">
+    <system-out><![CDATA[2026-07-10 20:45:04 INFO  TC006_TestCarLoanInterestTxtboxForNumInput:126 - Driver closed
+Driver closed
+2026-07-10 20:45:04 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:32 - TC007 Passed : Car Loan Tenure textbox did not accept string input and set default value 1
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureMonthToYear[1, 12](1)" classname="test.TC010_TestCarLoanTenureYearToMonth" time="0.428">
+    <system-out><![CDATA[2026-07-10 20:45:02 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:14 - TC007 Started
+2026-07-10 20:45:02 INFO  TC010_TestCarLoanTenureYearToMonth:26 - TC010 Passed : Year to month conversion is successfull
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureMonthToYear[2, 24](2)" classname="test.TC010_TestCarLoanTenureYearToMonth" time="0.548">
+    <system-out><![CDATA[2026-07-10 20:45:06 INFO  TC009_TestCarLoanTenureMonthToYear:14 - TC009 Started
+2026-07-10 20:45:06 INFO  TC010_TestCarLoanTenureYearToMonth:26 - TC010 Passed : Year to month conversion is successfull
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureMonthToYear[5, 60](3)" classname="test.TC010_TestCarLoanTenureYearToMonth" time="1.579">
+    <system-out><![CDATA[2026-07-10 20:45:06 INFO  TC010_TestCarLoanTenureYearToMonth:14 - TC010 Started
+2026-07-10 20:45:08 INFO  TC010_TestCarLoanTenureYearToMonth:26 - TC010 Passed : Year to month conversion is successfull
+2026-07-10 20:45:08 INFO  TC009_TestCarLoanTenureMonthToYear:26 - TC009 Passed : Month to year conversion is successfull
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureMonthToYear[1, 12](1)" classname="test.TC009_TestCarLoanTenureMonthToYear" time="0.29">
+    <system-out><![CDATA[2026-07-10 20:45:02 INFO  TC010_TestCarLoanTenureYearToMonth:14 - TC010 Started
+2026-07-10 20:45:03 INFO  TC009_TestCarLoanTenureMonthToYear:26 - TC009 Passed : Month to year conversion is successfull
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureMonthToYear[2, 24](2)" classname="test.TC009_TestCarLoanTenureMonthToYear" time="2.9">
+    <failure message="Month to year conversion is not working" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Month to year conversion is not working
+	at org.testng.Assert.fail(Assert.java:111)
+	at test.TC009_TestCarLoanTenureMonthToYear.testCarLoanTenureMonthToYear(TC009_TestCarLoanTenureMonthToYear.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[2026-07-10 20:45:05 INFO  TC007_TestCarLoanTenureTxtboxForStrInput:126 - Driver closed
+Driver closed
+2026-07-10 20:45:05 ERROR TC009_TestCarLoanTenureMonthToYear:21 - TC009 Failed : Month to year conversion is not working
+]]></system-out>
+    <system-err><![CDATA[java.lang.AssertionError: expected [2] but found [102]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at test.TC009_TestCarLoanTenureMonthToYear.testCarLoanTenureMonthToYear(TC009_TestCarLoanTenureMonthToYear.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></system-err>
+  </testcase>
+  <testcase name="testCarLoanTenureMonthToYear[5, 60](3)" classname="test.TC009_TestCarLoanTenureMonthToYear" time="1.809">
+    <system-out><![CDATA[2026-07-10 20:45:08 INFO  TC010_TestCarLoanTenureYearToMonth:126 - Driver closed
+Driver closed
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenuretSliderToTextbox[5](1)" classname="test.TC015_TestCarLoanTenureSliderToTextbox" time="2.033">
+    <system-out><![CDATA[2026-07-10 20:45:08 INFO  TC009_TestCarLoanTenureMonthToYear:126 - Driver closed
+Driver closed
+2026-07-10 20:45:13 INFO  TC011_TestCarLoanAmtSliderToTextbox:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:13 INFO  TC011_TestCarLoanAmtSliderToTextbox:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:13 INFO  TC012_TestCarLoanAmtTextboxToSlider:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:13 INFO  TC012_TestCarLoanAmtTextboxToSlider:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:13 INFO  TC013_TestCarLoanInterestSliderToTextbox:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:13 INFO  TC013_TestCarLoanInterestSliderToTextbox:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:14 INFO  TC014_TestCarLoanInterestTextboxToSlider:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:14 INFO  TC014_TestCarLoanInterestTextboxToSlider:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:14 INFO  TC015_TestCarLoanTenureSliderToTextbox:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:14 INFO  TC015_TestCarLoanTenureSliderToTextbox:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:25 INFO  TC011_TestCarLoanAmtSliderToTextbox:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:25 INFO  TC011_TestCarLoanAmtSliderToTextbox:14 - TC011 Started
+2026-07-10 20:45:25 INFO  TC012_TestCarLoanAmtTextboxToSlider:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:25 INFO  TC012_TestCarLoanAmtTextboxToSlider:14 - TC012 Started
+2026-07-10 20:45:26 INFO  TC013_TestCarLoanInterestSliderToTextbox:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:26 INFO  TC013_TestCarLoanInterestSliderToTextbox:14 - TC013 Started
+2026-07-10 20:45:28 INFO  TC015_TestCarLoanTenureSliderToTextbox:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:28 INFO  TC015_TestCarLoanTenureSliderToTextbox:14 - TC015 Started
+2026-07-10 20:45:28 INFO  TC014_TestCarLoanInterestTextboxToSlider:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:28 INFO  TC014_TestCarLoanInterestTextboxToSlider:14 - TC014 Started
+2026-07-10 20:45:29 INFO  TC015_TestCarLoanTenureSliderToTextbox:31 - TC013 Passed : Slider value successfully reflect on corresponding textbox
+]]></system-out>
+    <system-err><![CDATA[Jul 10, 2026 8:45:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:45:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:45:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:45:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:45:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="testCarLoanTenuretSliderToTextbox[7](2)" classname="test.TC015_TestCarLoanTenureSliderToTextbox" time="1.059">
+    <system-out><![CDATA[2026-07-10 20:45:30 INFO  TC015_TestCarLoanTenureSliderToTextbox:14 - TC015 Started
+2026-07-10 20:45:31 INFO  TC012_TestCarLoanAmtTextboxToSlider:29 - TC012 Passed : Textbox value successfully reflect on corresponding slider
+2026-07-10 20:45:31 INFO  TC015_TestCarLoanTenureSliderToTextbox:31 - TC013 Passed : Slider value successfully reflect on corresponding textbox
+2026-07-10 20:45:31 INFO  TC014_TestCarLoanInterestTextboxToSlider:30 - TC011 Passed : Textbox value successfully reflect on corresponding slider
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtTextboxToSlider[1000000](1)" classname="test.TC012_TestCarLoanAmtTextboxToSlider" time="1.128">
+    <system-out><![CDATA[2026-07-10 20:45:31 INFO  TC015_TestCarLoanTenureSliderToTextbox:126 - Driver closed
+Driver closed
+2026-07-10 20:45:31 INFO  TC013_TestCarLoanInterestSliderToTextbox:31 - TC013 Passed : Slider value successfully reflect on corresponding textbox
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtTextboxToSlider[500000](2)" classname="test.TC012_TestCarLoanAmtTextboxToSlider" time="0.884">
+    <system-out><![CDATA[2026-07-10 20:45:32 INFO  TC014_TestCarLoanInterestTextboxToSlider:14 - TC014 Started
+2026-07-10 20:45:32 INFO  TC013_TestCarLoanInterestSliderToTextbox:14 - TC013 Started
+2026-07-10 20:45:32 INFO  TC012_TestCarLoanAmtTextboxToSlider:29 - TC012 Passed : Textbox value successfully reflect on corresponding slider
+2026-07-10 20:45:32 INFO  TC014_TestCarLoanInterestTextboxToSlider:30 - TC011 Passed : Textbox value successfully reflect on corresponding slider
+2026-07-10 20:45:33 INFO  TC013_TestCarLoanInterestSliderToTextbox:31 - TC013 Passed : Slider value successfully reflect on corresponding textbox
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtTextboxToSlider[700000](3)" classname="test.TC012_TestCarLoanAmtTextboxToSlider" time="1.023">
+    <system-out><![CDATA[2026-07-10 20:45:33 INFO  TC013_TestCarLoanInterestSliderToTextbox:126 - Driver closed
+Driver closed
+2026-07-10 20:45:33 INFO  TC012_TestCarLoanAmtTextboxToSlider:29 - TC012 Passed : Textbox value successfully reflect on corresponding slider
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestTextboxToSlider[9](1)" classname="test.TC014_TestCarLoanInterestTextboxToSlider" time="0.227">
+    <system-out><![CDATA[2026-07-10 20:45:31 INFO  TC012_TestCarLoanAmtTextboxToSlider:14 - TC012 Started
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestTextboxToSlider[8](2)" classname="test.TC014_TestCarLoanInterestTextboxToSlider" time="0.155">
+    <system-out><![CDATA[2026-07-10 20:45:33 INFO  TC012_TestCarLoanAmtTextboxToSlider:14 - TC012 Started
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanInterestSliderToTextbox[9](1)" classname="test.TC013_TestCarLoanInterestSliderToTextbox" time="0.227"/>
+  <testcase name="testCarLoanInterestSliderToTextbox[8](2)" classname="test.TC013_TestCarLoanInterestSliderToTextbox" time="0.211">
+    <system-out><![CDATA[2026-07-10 20:45:33 INFO  TC014_TestCarLoanInterestTextboxToSlider:126 - Driver closed
+Driver closed
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtSliderToTextbox[1000000.0](1)" classname="test.TC011_TestCarLoanAmtSliderToTextbox" time="4.671">
+    <system-out><![CDATA[2026-07-10 20:45:34 INFO  TC012_TestCarLoanAmtTextboxToSlider:126 - Driver closed
+Driver closed
+2026-07-10 20:45:37 INFO  TC011_TestCarLoanAmtSliderToTextbox:29 - TC011 Passed : Slider value successfully reflect on corresponding textbox
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanAmtSliderToTextbox[500000.0](2)" classname="test.TC011_TestCarLoanAmtSliderToTextbox" time="7.182">
+    <system-out><![CDATA[2026-07-10 20:45:37 INFO  TC011_TestCarLoanAmtSliderToTextbox:14 - TC011 Started
+2026-07-10 20:45:39 INFO  TC016_TestCarLoanTenureTextboxToSlider:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:39 INFO  TC016_TestCarLoanTenureTextboxToSlider:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:40 INFO  TC017_Check_HomeLoanOptionPresentIn_Navbar:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:40 INFO  TC017_Check_HomeLoanOptionPresentIn_Navbar:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:40 INFO  TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:40 INFO  TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:41 INFO  TC019_HomeLoanValidation:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:45:41 INFO  TC019_HomeLoanValidation:49 - Driver initialized in local with chrome browser
+2026-07-10 20:45:44 INFO  TC011_TestCarLoanAmtSliderToTextbox:29 - TC011 Passed : Slider value successfully reflect on corresponding textbox
+]]></system-out>
+    <system-err><![CDATA[Jul 10, 2026 8:45:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="testCarLoanAmtSliderToTextbox[700000.0](3)" classname="test.TC011_TestCarLoanAmtSliderToTextbox" time="8.006">
+    <system-out><![CDATA[2026-07-10 20:45:44 INFO  TC011_TestCarLoanAmtSliderToTextbox:14 - TC011 Started
+2026-07-10 20:45:52 INFO  TC011_TestCarLoanAmtSliderToTextbox:29 - TC011 Passed : Slider value successfully reflect on corresponding textbox
+]]></system-out>
+    <system-err><![CDATA[Jul 10, 2026 8:45:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:45:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:45:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="check_HomeLoanOptionPresentIn_Navbar" classname="test.TC017_Check_HomeLoanOptionPresentIn_Navbar" time="2.973">
+    <system-out><![CDATA[2026-07-10 20:45:52 INFO  TC011_TestCarLoanAmtSliderToTextbox:126 - Driver closed
+Driver closed
+2026-07-10 20:45:55 INFO  TC016_TestCarLoanTenureTextboxToSlider:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:55 INFO  TC016_TestCarLoanTenureTextboxToSlider:13 - TC016 Started
+2026-07-10 20:45:55 INFO  TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:56 INFO  TC019_HomeLoanValidation:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:45:56 INFO  TC017_Check_HomeLoanOptionPresentIn_Navbar:119 - Driver initializing finished
+Driver initializing finished
+Options in the navbar :
+Credit Card EMI Calculator with GST
+Options in the navbar :
+Home Loan EMI Calculator
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureTextboxToSlider[5](1)" classname="test.TC016_TestCarLoanTenureTextboxToSlider" time="4.508">
+    <system-out><![CDATA[2026-07-10 20:45:59 INFO  TC017_Check_HomeLoanOptionPresentIn_Navbar:126 - Driver closed
+Driver closed
+2026-07-10 20:46:00 INFO  TC016_TestCarLoanTenureTextboxToSlider:29 - TC016 Passed : Textbox value successfully reflect on corresponding slider
+]]></system-out>
+  </testcase>
+  <testcase name="testCarLoanTenureTextboxToSlider[7](2)" classname="test.TC016_TestCarLoanTenureTextboxToSlider" time="0.229">
+    <system-out><![CDATA[2026-07-10 20:46:00 INFO  TC016_TestCarLoanTenureTextboxToSlider:13 - TC016 Started
+2026-07-10 20:46:01 INFO  TC016_TestCarLoanTenureTextboxToSlider:29 - TC016 Passed : Textbox value successfully reflect on corresponding slider
+]]></system-out>
+  </testcase>
+  <testcase name="validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan" classname="test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan" time="1.591">
+    <system-out><![CDATA[2026-07-10 20:46:02 INFO  TC016_TestCarLoanTenureTextboxToSlider:126 - Driver closed
+Driver closed
+]]></system-out>
+  </testcase>
+  <testcase name="validate_HomeLoan[6000000, 25, 0, 4500000, 10, 5, 0.3, Jul, 2026, 15, 0.3, 0.06, 3000, 1,00,412, 84,38,202](1)" classname="test.TC019_HomeLoanValidation" time="14.532">
+    <system-out><![CDATA[2026-07-10 20:46:03 INFO  TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan:126 - Driver closed
+Driver closed
+2026-07-10 20:46:03 INFO  TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:46:03 INFO  TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan:49 - Driver initialized in local with chrome browser
+2026-07-10 20:46:09 INFO  TC021_CarLoan_Validation:34 - Initializing Driver
+Initializing Driver
+2026-07-10 20:46:09 INFO  TC021_CarLoan_Validation:49 - Driver initialized in local with chrome browser
+₹ 1,00,412
+₹ 84,38,202
+1,00,412 84,38,202
+Year  Principal
+(A)  Interest
+(B)  Taxes, Home Insurance & Maintenance (C)  Total Payment
+(A + B + C)  Balance  Loan Paid To Date  
+2026  ₹ 3,56,015  ₹ 2,17,655  ₹ 28,800  ₹ 6,02,470  ₹ 41,43,985  7.91%  
+2027  ₹ 7,67,486  ₹ 3,79,854  ₹ 57,600  ₹ 12,04,940  ₹ 33,76,499  24.97%  
+2028  ₹ 8,47,852  ₹ 2,99,489  ₹ 57,600  ₹ 12,04,940  ₹ 25,28,647  43.81%  
+2029  ₹ 9,36,633  ₹ 2,10,707  ₹ 57,600  ₹ 12,04,940  ₹ 15,92,014  64.62%  
+2030  ₹ 10,34,711  ₹ 1,12,630  ₹ 57,600  ₹ 12,04,940  ₹ 5,57,303  87.62%  
+2031  ₹ 5,57,303  ₹ 16,367  ₹ 28,800  ₹ 6,02,470  ₹ 0  100%  
+]]></system-out>
+    <system-err><![CDATA[Jul 10, 2026 8:46:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+Jul 10, 2026 8:46:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="validate_HomeLoan[7000000, 25, 0, 5500000, 9, 10, 0.4, Jul, 2026, 20, 0.5, 0.07, 5000, 77,997, 1,22,81,631](2)" classname="test.TC019_HomeLoanValidation" time="5.429">
+    <system-out><![CDATA[2026-07-10 20:46:27 INFO  TC021_CarLoan_Validation:126 - Driver closed
+Driver closed
+Year  Principal
+(A)  Interest
+(B)  Taxes, Home Insurance & Maintenance (C)  Total Payment
+(A + B + C)  Balance  Loan Paid To Date  
+2026  ₹ 1,73,760  ₹ 2,44,270  ₹ 49,950  ₹ 4,67,980  ₹ 53,26,240  3.16%  
+2027  ₹ 3,71,786  ₹ 4,64,274  ₹ 99,900  ₹ 9,35,960  ₹ 49,54,454  9.92%  
+2028  ₹ 4,06,663  ₹ 4,29,398  ₹ 99,900  ₹ 9,35,960  ₹ 45,47,791  17.31%  
+2029  ₹ 4,44,810  ₹ 3,91,250  ₹ 99,900  ₹ 9,35,960  ₹ 41,02,981  25.4%  
+2030  ₹ 4,86,537  ₹ 3,49,524  ₹ 99,900  ₹ 9,35,960  ₹ 36,16,445  34.25%  
+2031  ₹ 5,32,177  ₹ 3,03,883  ₹ 99,900  ₹ 9,35,960  ₹ 30,84,267  43.92%  
+2032  ₹ 5,82,099  ₹ 2,53,961  ₹ 99,900  ₹ 9,35,960  ₹ 25,02,169  54.51%  
+2033  ₹ 6,36,704  ₹ 1,99,356  ₹ 99,900  ₹ 9,35,960  ₹ 18,65,465  66.08%  
+2034  ₹ 6,96,431  ₹ 1,39,629  ₹ 99,900  ₹ 9,35,960  ₹ 11,69,034  78.74%  
+2035  ₹ 7,61,761  ₹ 74,299  ₹ 99,900  ₹ 9,35,960  ₹ 4,07,273  92.6%  
+2036  ₹ 4,07,273  ₹ 10,757  ₹ 49,950  ₹ 4,67,980  ₹ 0  100%  
+]]></system-out>
+  </testcase>
+  <testcase name="check_GraphAndTablePresentedOrNot_For_HomeLoan" classname="test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan" time="2.386">
+    <system-out><![CDATA[2026-07-10 20:46:17 INFO  TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan:119 - Driver initializing finished
+Driver initializing finished
+2026-07-10 20:46:20 INFO  TC021_CarLoan_Validation:119 - Driver initializing finished
+Driver initializing finished
+₹ 77,997
+₹ 1,22,81,631
+77,997 1,22,81,631
+]]></system-out>
+  </testcase>
+  <testcase name="CarLoan_Validation[500000, 5, 6, 8,052, 79,778, 5,79,778](1)" classname="test.TC021_CarLoan_Validation" time="2.978">
+    <system-out><![CDATA[2026-07-10 20:46:23 INFO  TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan:126 - Driver closed
+Driver closed
+8,052 79,778 5,79,778
+8,052 79,778 5,79,778
+]]></system-out>
+  </testcase>
+  <testcase name="CarLoan_Validation[600000, 8, 8, 8,482, 2,14,273, 8,14,273](2)" classname="test.TC021_CarLoan_Validation" time="1.357">
+    <system-out><![CDATA[8,482 2,14,273 8,14,273
+8,482 2,14,273 8,14,273
+]]></system-out>
+  </testcase>
+  <testcase name="CarLoan_Validation[100000, 9, 10, 1,267, 52,011, 1,52,011](3)" classname="test.TC021_CarLoan_Validation" time="1.461">
+    <system-out><![CDATA[1,267 52,011 1,52,011
+1,267 52,011 1,52,011
+]]></system-out>
+  </testcase>
+</testsuite>

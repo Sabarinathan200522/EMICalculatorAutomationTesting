@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-10T13:53:15 IST" name="Suite" finished-at="2026-07-10T13:58:09 IST" duration-ms="294261">
+    <groups>
+      <group name="ui-sync">
+        <method signature="TC009_TestCarLoanTenureMonthToYear.testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC009_TestCarLoanTenureMonthToYear@5a1de7fb]" name="testCarLoanTenureMonthToYear" class="test.TC009_TestCarLoanTenureMonthToYear"/>
+        <method signature="TC010_TestCarLoanTenureYearToMonth.testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC010_TestCarLoanTenureYearToMonth@335b5620]" name="testCarLoanTenureMonthToYear" class="test.TC010_TestCarLoanTenureYearToMonth"/>
+        <method signature="TC011_TestCarLoanAmtSliderToTextbox.testCarLoanAmtSliderToTextbox(java.lang.Double)[pri:0, instance:test.TC011_TestCarLoanAmtSliderToTextbox@29a0cdb]" name="testCarLoanAmtSliderToTextbox" class="test.TC011_TestCarLoanAmtSliderToTextbox"/>
+        <method signature="TC012_TestCarLoanAmtTextboxToSlider.testCarLoanAmtTextboxToSlider(int)[pri:0, instance:test.TC012_TestCarLoanAmtTextboxToSlider@32a68f4f]" name="testCarLoanAmtTextboxToSlider" class="test.TC012_TestCarLoanAmtTextboxToSlider"/>
+        <method signature="TC013_TestCarLoanInterestSliderToTextbox.testCarLoanInterestSliderToTextbox(java.lang.String)[pri:0, instance:test.TC013_TestCarLoanInterestSliderToTextbox@73194df]" name="testCarLoanInterestSliderToTextbox" class="test.TC013_TestCarLoanInterestSliderToTextbox"/>
+        <method signature="TC014_TestCarLoanInterestTextboxToSlider.testCarLoanInterestTextboxToSlider(java.lang.String)[pri:0, instance:test.TC014_TestCarLoanInterestTextboxToSlider@6eb2384f]" name="testCarLoanInterestTextboxToSlider" class="test.TC014_TestCarLoanInterestTextboxToSlider"/>
+        <method signature="TC015_TestCarLoanTenureSliderToTextbox.testCarLoanTenuretSliderToTextbox(java.lang.String)[pri:0, instance:test.TC015_TestCarLoanTenureSliderToTextbox@3c9c0d96]" name="testCarLoanTenuretSliderToTextbox" class="test.TC015_TestCarLoanTenureSliderToTextbox"/>
+        <method signature="TC016_TestCarLoanTenureTextboxToSlider.testCarLoanTenureTextboxToSlider(java.lang.String)[pri:0, instance:test.TC016_TestCarLoanTenureTextboxToSlider@3a4621bd]" name="testCarLoanTenureTextboxToSlider" class="test.TC016_TestCarLoanTenureTextboxToSlider"/>
+      </group> <!-- ui-sync -->
+      <group name="smoke">
+        <method signature="TC001_CorrectWebPageValidation.webPage()[pri:0, instance:test.TC001_CorrectWebPageValidation@5460cf3a]" name="webPage" class="test.TC001_CorrectWebPageValidation"/>
+        <method signature="TC002_CheckCarLoanInNav.carLoanPresentOrNot()[pri:0, instance:test.TC002_CheckCarLoanInNav@7e4204e2]" name="carLoanPresentOrNot" class="test.TC002_CheckCarLoanInNav"/>
+        <method signature="TC017_Check_HomeLoanOptionPresentIn_Navbar.check_HomeLoanOptionPresentIn_Navbar()[pri:0, instance:test.TC017_Check_HomeLoanOptionPresentIn_Navbar@31dadd46]" name="check_HomeLoanOptionPresentIn_Navbar" class="test.TC017_Check_HomeLoanOptionPresentIn_Navbar"/>
+        <method signature="TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan.validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan()[pri:0, instance:test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan@4ed5eb72]" name="validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan" class="test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan"/>
+      </group> <!-- smoke -->
+      <group name="e2e">
+        <method signature="TC019_HomeLoanValidation.validate_HomeLoan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC019_HomeLoanValidation@12f9af83]" name="validate_HomeLoan" class="test.TC019_HomeLoanValidation"/>
+        <method signature="TC021_CarLoan_Validation.CarLoan_Validation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC021_CarLoan_Validation@7e6ef134]" name="CarLoan_Validation" class="test.TC021_CarLoan_Validation"/>
+      </group> <!-- e2e -->
+    </groups>
+    <test started-at="2026-07-10T13:53:15 IST" name="Test" finished-at="2026-07-10T13:58:09 IST" duration-ms="294261">
+      <class name="test.TC014_TestCarLoanInterestTextboxToSlider">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC014_TestCarLoanInterestTextboxToSlider@6eb2384f]" started-at="2026-07-10T13:56:04 IST" name="driverSetUp" finished-at="2026-07-10T13:56:11 IST" duration-ms="6812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanInterestTextboxToSlider(java.lang.String)[pri:0, instance:test.TC014_TestCarLoanInterestTextboxToSlider@6eb2384f]" started-at="2026-07-10T13:56:11 IST" name="testCarLoanInterestTextboxToSlider" data-provider="CarInterestAmountnum" finished-at="2026-07-10T13:56:11 IST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestTextboxToSlider -->
+        <test-method signature="testCarLoanInterestTextboxToSlider(java.lang.String)[pri:0, instance:test.TC014_TestCarLoanInterestTextboxToSlider@6eb2384f]" started-at="2026-07-10T13:56:12 IST" name="testCarLoanInterestTextboxToSlider" data-provider="CarInterestAmountnum" finished-at="2026-07-10T13:56:12 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestTextboxToSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC014_TestCarLoanInterestTextboxToSlider@6eb2384f]" started-at="2026-07-10T13:56:12 IST" name="tearDown" finished-at="2026-07-10T13:56:16 IST" duration-ms="4226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC014_TestCarLoanInterestTextboxToSlider -->
+      <class name="test.TC011_TestCarLoanAmtSliderToTextbox">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC011_TestCarLoanAmtSliderToTextbox@29a0cdb]" started-at="2026-07-10T13:55:12 IST" name="driverSetUp" finished-at="2026-07-10T13:55:18 IST" duration-ms="6756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanAmtSliderToTextbox(java.lang.Double)[pri:0, instance:test.TC011_TestCarLoanAmtSliderToTextbox@29a0cdb]" started-at="2026-07-10T13:55:18 IST" name="testCarLoanAmtSliderToTextbox" data-provider="CarLoansliderValue" finished-at="2026-07-10T13:55:25 IST" duration-ms="6186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtSliderToTextbox -->
+        <test-method signature="testCarLoanAmtSliderToTextbox(java.lang.Double)[pri:0, instance:test.TC011_TestCarLoanAmtSliderToTextbox@29a0cdb]" started-at="2026-07-10T13:55:25 IST" name="testCarLoanAmtSliderToTextbox" data-provider="CarLoansliderValue" finished-at="2026-07-10T13:55:31 IST" duration-ms="6081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtSliderToTextbox -->
+        <test-method signature="testCarLoanAmtSliderToTextbox(java.lang.Double)[pri:0, instance:test.TC011_TestCarLoanAmtSliderToTextbox@29a0cdb]" started-at="2026-07-10T13:55:31 IST" name="testCarLoanAmtSliderToTextbox" data-provider="CarLoansliderValue" finished-at="2026-07-10T13:55:37 IST" duration-ms="6065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtSliderToTextbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC011_TestCarLoanAmtSliderToTextbox@29a0cdb]" started-at="2026-07-10T13:55:37 IST" name="tearDown" finished-at="2026-07-10T13:55:41 IST" duration-ms="3553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC011_TestCarLoanAmtSliderToTextbox -->
+      <class name="test.TC009_TestCarLoanTenureMonthToYear">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC009_TestCarLoanTenureMonthToYear@5a1de7fb]" started-at="2026-07-10T13:54:48 IST" name="driverSetUp" finished-at="2026-07-10T13:54:54 IST" duration-ms="6784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC009_TestCarLoanTenureMonthToYear@5a1de7fb]" started-at="2026-07-10T13:54:54 IST" name="testCarLoanTenureMonthToYear" data-provider="CarLoanTenureMonthYear" finished-at="2026-07-10T13:54:55 IST" duration-ms="689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureMonthToYear -->
+        <test-method signature="testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC009_TestCarLoanTenureMonthToYear@5a1de7fb]" started-at="2026-07-10T13:54:55 IST" name="testCarLoanTenureMonthToYear" data-provider="CarLoanTenureMonthYear" finished-at="2026-07-10T13:54:56 IST" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureMonthToYear -->
+        <test-method signature="testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC009_TestCarLoanTenureMonthToYear@5a1de7fb]" started-at="2026-07-10T13:54:56 IST" name="testCarLoanTenureMonthToYear" data-provider="CarLoanTenureMonthYear" finished-at="2026-07-10T13:54:57 IST" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureMonthToYear -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC009_TestCarLoanTenureMonthToYear@5a1de7fb]" started-at="2026-07-10T13:54:57 IST" name="tearDown" finished-at="2026-07-10T13:54:59 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC009_TestCarLoanTenureMonthToYear -->
+      <class name="test.TC006_TestCarLoanInterestTxtboxForNumInput">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC006_TestCarLoanInterestTxtboxForNumInput@72437d8d]" started-at="2026-07-10T13:54:13 IST" name="driverSetUp" finished-at="2026-07-10T13:54:20 IST" duration-ms="6920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanInterestTextbox(java.lang.String)[pri:0, instance:test.TC006_TestCarLoanInterestTxtboxForNumInput@72437d8d]" started-at="2026-07-10T13:54:20 IST" name="testCarLoanInterestTextbox" data-provider="CarInterestAmountnum" finished-at="2026-07-10T13:54:20 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestTextbox -->
+        <test-method signature="testCarLoanInterestTextbox(java.lang.String)[pri:0, instance:test.TC006_TestCarLoanInterestTxtboxForNumInput@72437d8d]" started-at="2026-07-10T13:54:21 IST" name="testCarLoanInterestTextbox" data-provider="CarInterestAmountnum" finished-at="2026-07-10T13:54:21 IST" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestTextbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC006_TestCarLoanInterestTxtboxForNumInput@72437d8d]" started-at="2026-07-10T13:54:21 IST" name="tearDown" finished-at="2026-07-10T13:54:24 IST" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC006_TestCarLoanInterestTxtboxForNumInput -->
+      <class name="test.TC001_CorrectWebPageValidation">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_CorrectWebPageValidation@5460cf3a]" started-at="2026-07-10T13:53:15 IST" name="driverSetUp" finished-at="2026-07-10T13:53:22 IST" duration-ms="7500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="webPage()[pri:0, instance:test.TC001_CorrectWebPageValidation@5460cf3a]" started-at="2026-07-10T13:53:22 IST" name="webPage" finished-at="2026-07-10T13:53:23 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC001_CorrectWebPageValidation@5460cf3a]" started-at="2026-07-10T13:53:23 IST" name="tearDown" finished-at="2026-07-10T13:53:25 IST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC001_CorrectWebPageValidation -->
+      <class name="test.TC015_TestCarLoanTenureSliderToTextbox">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC015_TestCarLoanTenureSliderToTextbox@3c9c0d96]" started-at="2026-07-10T13:56:16 IST" name="driverSetUp" finished-at="2026-07-10T13:56:23 IST" duration-ms="6812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanTenuretSliderToTextbox(java.lang.String)[pri:0, instance:test.TC015_TestCarLoanTenureSliderToTextbox@3c9c0d96]" started-at="2026-07-10T13:56:23 IST" name="testCarLoanTenuretSliderToTextbox" data-provider="CarTenureAmountnum" finished-at="2026-07-10T13:56:24 IST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenuretSliderToTextbox -->
+        <test-method signature="testCarLoanTenuretSliderToTextbox(java.lang.String)[pri:0, instance:test.TC015_TestCarLoanTenureSliderToTextbox@3c9c0d96]" started-at="2026-07-10T13:56:24 IST" name="testCarLoanTenuretSliderToTextbox" data-provider="CarTenureAmountnum" finished-at="2026-07-10T13:56:25 IST" duration-ms="725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenuretSliderToTextbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC015_TestCarLoanTenureSliderToTextbox@3c9c0d96]" started-at="2026-07-10T13:56:25 IST" name="tearDown" finished-at="2026-07-10T13:56:28 IST" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC015_TestCarLoanTenureSliderToTextbox -->
+      <class name="test.TC003_TestCarLoanAmtTxtboxForStrInput">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC003_TestCarLoanAmtTxtboxForStrInput@b7c4869]" started-at="2026-07-10T13:53:35 IST" name="driverSetUp" finished-at="2026-07-10T13:53:42 IST" duration-ms="6830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanAmtText(java.lang.String)[pri:0, instance:test.TC003_TestCarLoanAmtTxtboxForStrInput@b7c4869]" started-at="2026-07-10T13:53:42 IST" name="testCarLoanAmtText" data-provider="CarLoanAmountstr" finished-at="2026-07-10T13:53:42 IST" duration-ms="510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhuru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtText -->
+        <test-method signature="testCarLoanAmtText(java.lang.String)[pri:0, instance:test.TC003_TestCarLoanAmtTxtboxForStrInput@b7c4869]" started-at="2026-07-10T13:53:43 IST" name="testCarLoanAmtText" data-provider="CarLoanAmountstr" finished-at="2026-07-10T13:53:43 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC003_TestCarLoanAmtTxtboxForStrInput@b7c4869]" started-at="2026-07-10T13:53:43 IST" name="tearDown" finished-at="2026-07-10T13:53:46 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC003_TestCarLoanAmtTxtboxForStrInput -->
+      <class name="test.TC010_TestCarLoanTenureYearToMonth">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC010_TestCarLoanTenureYearToMonth@335b5620]" started-at="2026-07-10T13:54:59 IST" name="driverSetUp" finished-at="2026-07-10T13:55:06 IST" duration-ms="6799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC010_TestCarLoanTenureYearToMonth@335b5620]" started-at="2026-07-10T13:55:06 IST" name="testCarLoanTenureMonthToYear" data-provider="CarLoanTenureMonthYear" finished-at="2026-07-10T13:55:07 IST" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureMonthToYear -->
+        <test-method signature="testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC010_TestCarLoanTenureYearToMonth@335b5620]" started-at="2026-07-10T13:55:07 IST" name="testCarLoanTenureMonthToYear" data-provider="CarLoanTenureMonthYear" finished-at="2026-07-10T13:55:08 IST" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureMonthToYear -->
+        <test-method signature="testCarLoanTenureMonthToYear(java.lang.String,java.lang.String)[pri:0, instance:test.TC010_TestCarLoanTenureYearToMonth@335b5620]" started-at="2026-07-10T13:55:08 IST" name="testCarLoanTenureMonthToYear" data-provider="CarLoanTenureMonthYear" finished-at="2026-07-10T13:55:08 IST" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureMonthToYear -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC010_TestCarLoanTenureYearToMonth@335b5620]" started-at="2026-07-10T13:55:09 IST" name="tearDown" finished-at="2026-07-10T13:55:12 IST" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC010_TestCarLoanTenureYearToMonth -->
+      <class name="test.TC004_TestCarLoanAmtTxtboxForNumInput">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC004_TestCarLoanAmtTxtboxForNumInput@740d2e78]" started-at="2026-07-10T13:53:46 IST" name="driverSetUp" finished-at="2026-07-10T13:53:53 IST" duration-ms="6959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanAmtText(java.lang.String)[pri:0, instance:test.TC004_TestCarLoanAmtTxtboxForNumInput@740d2e78]" started-at="2026-07-10T13:53:53 IST" name="testCarLoanAmtText" data-provider="CarLoanAmountnum" finished-at="2026-07-10T13:53:53 IST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,00,000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtText -->
+        <test-method signature="testCarLoanAmtText(java.lang.String)[pri:0, instance:test.TC004_TestCarLoanAmtTxtboxForNumInput@740d2e78]" started-at="2026-07-10T13:53:53 IST" name="testCarLoanAmtText" data-provider="CarLoanAmountnum" finished-at="2026-07-10T13:53:54 IST" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC004_TestCarLoanAmtTxtboxForNumInput@740d2e78]" started-at="2026-07-10T13:53:54 IST" name="tearDown" finished-at="2026-07-10T13:53:57 IST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC004_TestCarLoanAmtTxtboxForNumInput -->
+      <class name="test.TC012_TestCarLoanAmtTextboxToSlider">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC012_TestCarLoanAmtTextboxToSlider@32a68f4f]" started-at="2026-07-10T13:55:41 IST" name="driverSetUp" finished-at="2026-07-10T13:55:48 IST" duration-ms="6984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanAmtTextboxToSlider(int)[pri:0, instance:test.TC012_TestCarLoanAmtTextboxToSlider@32a68f4f]" started-at="2026-07-10T13:55:48 IST" name="testCarLoanAmtTextboxToSlider" data-provider="CarLoansliderValueInt" finished-at="2026-07-10T13:55:48 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtTextboxToSlider -->
+        <test-method signature="testCarLoanAmtTextboxToSlider(int)[pri:0, instance:test.TC012_TestCarLoanAmtTextboxToSlider@32a68f4f]" started-at="2026-07-10T13:55:48 IST" name="testCarLoanAmtTextboxToSlider" data-provider="CarLoansliderValueInt" finished-at="2026-07-10T13:55:49 IST" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtTextboxToSlider -->
+        <test-method signature="testCarLoanAmtTextboxToSlider(int)[pri:0, instance:test.TC012_TestCarLoanAmtTextboxToSlider@32a68f4f]" started-at="2026-07-10T13:55:49 IST" name="testCarLoanAmtTextboxToSlider" data-provider="CarLoansliderValueInt" finished-at="2026-07-10T13:55:49 IST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[700000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanAmtTextboxToSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC012_TestCarLoanAmtTextboxToSlider@32a68f4f]" started-at="2026-07-10T13:55:49 IST" name="tearDown" finished-at="2026-07-10T13:55:52 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC012_TestCarLoanAmtTextboxToSlider -->
+      <class name="test.TC021_CarLoan_Validation">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC021_CarLoan_Validation@7e6ef134]" started-at="2026-07-10T13:57:56 IST" name="driverSetUp" finished-at="2026-07-10T13:58:03 IST" duration-ms="6900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="CarLoan_Validation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC021_CarLoan_Validation@7e6ef134]" started-at="2026-07-10T13:58:03 IST" name="CarLoan_Validation" data-provider="CarLoanData" finished-at="2026-07-10T13:58:04 IST" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8,052]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[79,778]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5,79,778]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoan_Validation -->
+        <test-method signature="CarLoan_Validation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC021_CarLoan_Validation@7e6ef134]" started-at="2026-07-10T13:58:04 IST" name="CarLoan_Validation" data-provider="CarLoanData" finished-at="2026-07-10T13:58:05 IST" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[600000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8,482]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2,14,273]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8,14,273]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoan_Validation -->
+        <test-method signature="CarLoan_Validation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC021_CarLoan_Validation@7e6ef134]" started-at="2026-07-10T13:58:05 IST" name="CarLoan_Validation" data-provider="CarLoanData" finished-at="2026-07-10T13:58:06 IST" duration-ms="713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1,267]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[52,011]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1,52,011]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoan_Validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC021_CarLoan_Validation@7e6ef134]" started-at="2026-07-10T13:58:06 IST" name="tearDown" finished-at="2026-07-10T13:58:09 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC021_CarLoan_Validation -->
+      <class name="test.TC007_TestCarLoanTenureTxtboxForStrInput">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC007_TestCarLoanTenureTxtboxForStrInput@1b955cac]" started-at="2026-07-10T13:54:24 IST" name="driverSetUp" finished-at="2026-07-10T13:54:31 IST" duration-ms="7306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanTenureTextbox(java.lang.String)[pri:0, instance:test.TC007_TestCarLoanTenureTxtboxForStrInput@1b955cac]" started-at="2026-07-10T13:54:31 IST" name="testCarLoanTenureTextbox" data-provider="CarLoanAmountstr" finished-at="2026-07-10T13:54:32 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhuru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureTextbox -->
+        <test-method signature="testCarLoanTenureTextbox(java.lang.String)[pri:0, instance:test.TC007_TestCarLoanTenureTxtboxForStrInput@1b955cac]" started-at="2026-07-10T13:54:32 IST" name="testCarLoanTenureTextbox" data-provider="CarLoanAmountstr" finished-at="2026-07-10T13:54:33 IST" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureTextbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC007_TestCarLoanTenureTxtboxForStrInput@1b955cac]" started-at="2026-07-10T13:54:33 IST" name="tearDown" finished-at="2026-07-10T13:54:35 IST" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC007_TestCarLoanTenureTxtboxForStrInput -->
+      <class name="test.TC008_TestCarLoanTenureTxtboxForNumInput">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC008_TestCarLoanTenureTxtboxForNumInput@676cf48]" started-at="2026-07-10T13:54:35 IST" name="driverSetUp" finished-at="2026-07-10T13:54:42 IST" duration-ms="6754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanTenureTextbox(java.lang.String)[pri:0, instance:test.TC008_TestCarLoanTenureTxtboxForNumInput@676cf48]" started-at="2026-07-10T13:54:42 IST" name="testCarLoanTenureTextbox" data-provider="CarTenureAmountnum" finished-at="2026-07-10T13:54:42 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureTextbox -->
+        <test-method signature="testCarLoanTenureTextbox(java.lang.String)[pri:0, instance:test.TC008_TestCarLoanTenureTxtboxForNumInput@676cf48]" started-at="2026-07-10T13:54:43 IST" name="testCarLoanTenureTextbox" data-provider="CarTenureAmountnum" finished-at="2026-07-10T13:54:43 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureTextbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC008_TestCarLoanTenureTxtboxForNumInput@676cf48]" started-at="2026-07-10T13:54:43 IST" name="tearDown" finished-at="2026-07-10T13:54:48 IST" duration-ms="4398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC008_TestCarLoanTenureTxtboxForNumInput -->
+      <class name="test.TC019_HomeLoanValidation">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC019_HomeLoanValidation@12f9af83]" started-at="2026-07-10T13:57:04 IST" name="driverSetUp" finished-at="2026-07-10T13:57:11 IST" duration-ms="6792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="validate_HomeLoan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC019_HomeLoanValidation@12f9af83]" started-at="2026-07-10T13:57:13 IST" name="validate_HomeLoan" data-provider="LoginData" finished-at="2026-07-10T13:57:24 IST" duration-ms="11369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4500000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0.06]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1,00,412]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[84,38,202]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HomeLoan -->
+        <test-method signature="validate_HomeLoan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC019_HomeLoanValidation@12f9af83]" started-at="2026-07-10T13:57:25 IST" name="validate_HomeLoan" data-provider="LoginData" finished-at="2026-07-10T13:57:38 IST" duration-ms="13527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5500000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0.07]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[77,997]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1,22,81,631]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HomeLoan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC019_HomeLoanValidation@12f9af83]" started-at="2026-07-10T13:57:38 IST" name="tearDown" finished-at="2026-07-10T13:57:42 IST" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC019_HomeLoanValidation -->
+      <class name="test.TC013_TestCarLoanInterestSliderToTextbox">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC013_TestCarLoanInterestSliderToTextbox@73194df]" started-at="2026-07-10T13:55:52 IST" name="driverSetUp" finished-at="2026-07-10T13:55:59 IST" duration-ms="6788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanInterestSliderToTextbox(java.lang.String)[pri:0, instance:test.TC013_TestCarLoanInterestSliderToTextbox@73194df]" started-at="2026-07-10T13:55:59 IST" name="testCarLoanInterestSliderToTextbox" data-provider="CarInterestAmountnum" finished-at="2026-07-10T13:56:00 IST" duration-ms="892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestSliderToTextbox -->
+        <test-method signature="testCarLoanInterestSliderToTextbox(java.lang.String)[pri:0, instance:test.TC013_TestCarLoanInterestSliderToTextbox@73194df]" started-at="2026-07-10T13:56:00 IST" name="testCarLoanInterestSliderToTextbox" data-provider="CarInterestAmountnum" finished-at="2026-07-10T13:56:01 IST" duration-ms="840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestSliderToTextbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC013_TestCarLoanInterestSliderToTextbox@73194df]" started-at="2026-07-10T13:56:01 IST" name="tearDown" finished-at="2026-07-10T13:56:04 IST" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC013_TestCarLoanInterestSliderToTextbox -->
+      <class name="test.TC002_CheckCarLoanInNav">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_CheckCarLoanInNav@7e4204e2]" started-at="2026-07-10T13:53:25 IST" name="driverSetUp" finished-at="2026-07-10T13:53:32 IST" duration-ms="6744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="carLoanPresentOrNot()[pri:0, instance:test.TC002_CheckCarLoanInNav@7e4204e2]" started-at="2026-07-10T13:53:32 IST" name="carLoanPresentOrNot" finished-at="2026-07-10T13:53:32 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPresentOrNot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC002_CheckCarLoanInNav@7e4204e2]" started-at="2026-07-10T13:53:32 IST" name="tearDown" finished-at="2026-07-10T13:53:35 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC002_CheckCarLoanInNav -->
+      <class name="test.TC016_TestCarLoanTenureTextboxToSlider">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC016_TestCarLoanTenureTextboxToSlider@3a4621bd]" started-at="2026-07-10T13:56:28 IST" name="driverSetUp" finished-at="2026-07-10T13:56:35 IST" duration-ms="6726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanTenureTextboxToSlider(java.lang.String)[pri:0, instance:test.TC016_TestCarLoanTenureTextboxToSlider@3a4621bd]" started-at="2026-07-10T13:56:35 IST" name="testCarLoanTenureTextboxToSlider" data-provider="CarTenureAmountnum" finished-at="2026-07-10T13:56:35 IST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureTextboxToSlider -->
+        <test-method signature="testCarLoanTenureTextboxToSlider(java.lang.String)[pri:0, instance:test.TC016_TestCarLoanTenureTextboxToSlider@3a4621bd]" started-at="2026-07-10T13:56:35 IST" name="testCarLoanTenureTextboxToSlider" data-provider="CarTenureAmountnum" finished-at="2026-07-10T13:56:36 IST" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanTenureTextboxToSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC016_TestCarLoanTenureTextboxToSlider@3a4621bd]" started-at="2026-07-10T13:56:36 IST" name="tearDown" finished-at="2026-07-10T13:56:40 IST" duration-ms="4087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC016_TestCarLoanTenureTextboxToSlider -->
+      <class name="test.TC017_Check_HomeLoanOptionPresentIn_Navbar">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC017_Check_HomeLoanOptionPresentIn_Navbar@31dadd46]" started-at="2026-07-10T13:56:40 IST" name="driverSetUp" finished-at="2026-07-10T13:56:47 IST" duration-ms="6767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="check_HomeLoanOptionPresentIn_Navbar()[pri:0, instance:test.TC017_Check_HomeLoanOptionPresentIn_Navbar@31dadd46]" started-at="2026-07-10T13:56:47 IST" name="check_HomeLoanOptionPresentIn_Navbar" finished-at="2026-07-10T13:56:47 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_HomeLoanOptionPresentIn_Navbar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC017_Check_HomeLoanOptionPresentIn_Navbar@31dadd46]" started-at="2026-07-10T13:56:47 IST" name="tearDown" finished-at="2026-07-10T13:56:49 IST" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC017_Check_HomeLoanOptionPresentIn_Navbar -->
+      <class name="test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan@4ed5eb72]" started-at="2026-07-10T13:56:49 IST" name="driverSetUp" finished-at="2026-07-10T13:56:56 IST" duration-ms="6825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan()[pri:0, instance:test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan@4ed5eb72]" started-at="2026-07-10T13:56:56 IST" name="validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan" finished-at="2026-07-10T13:57:01 IST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HomeValue_InputFieldsPresentedOrNot_For_HomeLoan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan@4ed5eb72]" started-at="2026-07-10T13:57:01 IST" name="tearDown" finished-at="2026-07-10T13:57:04 IST" duration-ms="2630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC018_Check_InputFieldsPresentedOrNot_For_HomeLoan -->
+      <class name="test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan@19b93fa8]" started-at="2026-07-10T13:57:42 IST" name="driverSetUp" finished-at="2026-07-10T13:57:49 IST" duration-ms="6822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="check_GraphAndTablePresentedOrNot_For_HomeLoan()[pri:0, instance:test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan@19b93fa8]" started-at="2026-07-10T13:57:49 IST" name="check_GraphAndTablePresentedOrNot_For_HomeLoan" finished-at="2026-07-10T13:57:53 IST" duration-ms="4360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_GraphAndTablePresentedOrNot_For_HomeLoan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan@19b93fa8]" started-at="2026-07-10T13:57:53 IST" name="tearDown" finished-at="2026-07-10T13:57:56 IST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC020_Check_GraphAndTablePresentedOrNot_For_HomeLoan -->
+      <class name="test.TC005_TestCarLoanInterestTxtboxForStrInput">
+        <test-method is-config="true" signature="driverSetUp(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:test.TC005_TestCarLoanInterestTxtboxForStrInput@1c481ff2]" started-at="2026-07-10T13:53:57 IST" name="driverSetUp" finished-at="2026-07-10T13:54:09 IST" duration-ms="11977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c7b4a31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="testCarLoanInterestText(java.lang.String)[pri:0, instance:test.TC005_TestCarLoanInterestTxtboxForStrInput@1c481ff2]" started-at="2026-07-10T13:54:09 IST" name="testCarLoanInterestText" data-provider="CarLoanAmountstr" finished-at="2026-07-10T13:54:09 IST" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhuru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestText -->
+        <test-method signature="testCarLoanInterestText(java.lang.String)[pri:0, instance:test.TC005_TestCarLoanInterestTxtboxForStrInput@1c481ff2]" started-at="2026-07-10T13:54:09 IST" name="testCarLoanInterestText" data-provider="CarLoanAmountstr" finished-at="2026-07-10T13:54:10 IST" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoanInterestText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC005_TestCarLoanInterestTxtboxForStrInput@1c481ff2]" started-at="2026-07-10T13:54:10 IST" name="tearDown" finished-at="2026-07-10T13:54:13 IST" duration-ms="2936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TC005_TestCarLoanInterestTxtboxForStrInput -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
